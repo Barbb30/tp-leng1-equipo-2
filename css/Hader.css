@@ -22,9 +22,6 @@ nav a:hover {
     border-bottom: 2px solid var(--color-texto); 
 }
 
-/* =========================================
-   Footer (Pie de página)
-   ========================================= */
 footer {
     background-color: var(--color-acento); 
     color: var(--color-fondo); 
