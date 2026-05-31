@@ -21,4 +21,82 @@ body {
     padding: 0 1rem;
 }
 
+.menu-enlaces {
+    display: flex;
+    flex-direction: row; /* nota para mi: row horizontal */
+    gap: 1.25rem;
+    justify-content: center;
+    background-color: var(--color-primario); 
+    padding: 1rem;                           
+    border-radius: 8px;                      
+    margin: 1rem 0;
 
+}
+
+.menu-enlaces a {
+    text-decoration: none;
+    color: var(--color-acento); /* nota para mi: quita el azul horrible de link y lo pone un azul mas lindo */
+    font-weight: 600;           
+    font-size: 1.1rem;          
+}
+
+header h1 {
+    text-align: center; /* nota para mi: center es para centrar */
+    margin-bottom: 1rem;     
+}
+
+.contacto-rapido {
+    text-align: center;      
+    margin-bottom: 1rem;  
+}
+section {
+    display: flex;
+    flex-direction: column; /* nota para mi esto pone columnas*/
+    gap: 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--color-acento);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    display: flex;
+    align-items: center; /* nota para mi: esto centra la imagen y el texto*/
+    gap: 3rem;
+    background-color: #ffffff; 
+    padding: 2.5rem;
+    border-radius: 16px;    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
+}
+
+article img {
+    width: 45%;             
+    border-radius: 12px;
+    object-fit: cover;      
+}
+
+.info-programa {
+    width: 55%;             
+}
+
+.info-programa h3, .info-programa h4 {
+    color: var(--color-acento);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.info-programa p, .info-programa ul, .info-programa dl {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #444; 
+}
+
+.info-programa ul {
+    margin-left: 1.5rem;
+}
