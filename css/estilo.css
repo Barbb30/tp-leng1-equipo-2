@@ -26,11 +26,10 @@ body {
     flex-direction: row; /* nota para mi: row horizontal */
     gap: 1.25rem;
     justify-content: center;
-    background-color: var(--color-primario); 
-    padding: 1rem;                           
-    border-radius: 8px;                      
+    background-color: var(--color-primario);
+    padding: 1rem;
+    border-radius: 8px;
     margin: 1rem 0;
-
 }
 
 .menu-enlaces a {
@@ -52,6 +51,7 @@ header h1 {
 section {
     display: flex;
     flex-direction: column; /* nota para mi esto pone columnas*/
+    text-align: center;
     gap: 4rem;
     max-width: 1100px;
     margin: 0 auto;
@@ -71,7 +71,7 @@ article {
     gap: 3rem;
     background-color: #ffffff; 
     padding: 2.5rem;
-    border-radius: 16px;    
+    border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
 }
 
@@ -97,6 +97,26 @@ article img {
     color: #444; 
 }
 
-.info-programa ul {
-    margin-left: 1.5rem;
+nav a {
+    text-decoration: none;
+    color: var(--color-acento);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0 1.5rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--color-texto);
+    border-bottom: 2px solid var(--color-texto);
+}
+
+footer {
+    background-color: var(--color-acento);
+    color: var(--color-fondo);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 10px 10px 0 0;
 }
