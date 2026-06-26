@@ -23,7 +23,7 @@ body {
 
 .menu-enlaces {
     display: flex;
-    flex-direction: row; /* nota para mi: row horizontal */
+    flex-direction: row; /*row es horizontal */
     gap: 1.25rem;
     justify-content: center;
     background-color: var(--color-primario);
@@ -34,14 +34,22 @@ body {
 
 .menu-enlaces a {
     text-decoration: none;
-    color: var(--color-acento); /* nota para mi: quita el azul horrible de link y lo pone un azul mas lindo */
+    color: var(--color-acento); /*quita el azul horrible de link y lo pone un azul mas lindo,usar siempre!! */
     font-weight: 600;           
     font-size: 1.1rem;          
 }
 
 header h1 {
-    text-align: center; /* nota para mi: center es para centrar */
-    margin-bottom: 1rem;     
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.logo-principal {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    width: 120px; 
+    height: auto; 
 }
 
 .contacto-rapido {
@@ -50,7 +58,7 @@ header h1 {
 }
 section {
     display: flex;
-    flex-direction: column; /* nota para mi esto pone columnas*/
+    flex-direction: column; /*esto pone columnas*/
     text-align: center;
     gap: 4rem;
     max-width: 1100px;
@@ -67,7 +75,7 @@ section h2 {
 
 article {
     display: flex;
-    align-items: center; /* nota para mi: esto centra la imagen y el texto*/
+    align-items: center; /*esto centra la imagen y el texto*/
     gap: 3rem;
     background-color: #ffffff; 
     padding: 2.5rem;
@@ -119,4 +127,40 @@ footer {
     padding: 2rem;
     margin-top: 3rem;
     border-radius: 10px 10px 0 0;
+}
+
+
+.boton-enlace {
+    display: inline-block; 
+    background-color: var(--color-acento); 
+    color: var(--color-fondo); 
+    padding: 0.8rem 1.5rem; 
+    border-radius: 8px; 
+    text-decoration: none; /*esto quita el subrayado de links, usar siempre!!*/
+    font-weight: bold;
+    margin-top: 1rem; 
+
+}
+
+.boton-enlace:hover { /* el hover al pasar el mouse hace algo*/
+    background-color: var(--color-primario);
+    color: var(--color-acento); 
+    transition: background-color 0.3s ease;
+}
+
+.caja-mision {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    text-align: left; 
+    background-color: var(--color-fondo);
+    padding: 3rem 4rem; 
+    border-radius: 16px;
+    max-width: 900px; 
+    margin: 3rem auto; 
+}
+
+.lista-mision {
+    margin-left: 2.5rem;
+    color: var(--color-acento);
 }
