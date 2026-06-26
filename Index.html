@@ -2,71 +2,68 @@
 <html lang="es">
 
     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="wirdth=device wirdth, inicial scale-1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wirdth=device wirdth, inicial scale-1.0">
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="estilos.css"/>
-       <title>SALVANDO PATITAS LHM</title>
+        <link rel="stylesheet" href="./css/estilo.css"/>
+        <title>SALVANDO PATITAS LHM</title>
     </head>
     
-
     <body>
         <header>
-            <img src="./img/LOGO.jpg" alt="logo" width="100" height="100"/>
-            <nav class= "menu-enlace">
-                 <a href="./INDEX.html" target="_blank">Inicio</a>
-                 <a href="./nosotros.html" target="_blank">Sobre nosotros</a>
-                 <a href="./contacto.html" target="_blank">contacto</a>
-                 <a href="./programa.html" target="_blank">programa</a>
-                <br>
-            </nav>  
-
-            
-            <main>
-                <img src="./img/index.jpg" alt="foto index" width="1300" height="630"/>
-                <br>
-                <h2>NUESTRA MISION</h2>
-                <p>  Nuestra mision es rescatar, rehabilitar y proteger tanto perros como gatos en situacion de abandono,
-                maltrato o vulnerabilidad, promoviendo una cultura de respeto y tenencia responsable que garantice su 
-                derecho a una vida libre de sufrimiento.
-                La clave aqui es que no solo se "salvan vidas", sino que atacamos a la causa: abandono y maltrato, 
-                y buscar cambiar el entorno legal y social.
-                </p>
-
-                <p> Trabajamos en dos frentes simultaneos:
-                  <ol>
-                     <li>Atencion directa: sacar animales del peligro, curarlos y recuperarlos.</li>
-                     <li>Cambio estructural: educar, esterilizar masivamente y usar la ley para prevenir que el ciclo se repita</li>
-                  </ol>
-                </p>
-
-                <p>Lo que hacemos lo hacemos con compromiso real. Si tomamos un caso, vamos hasta el final. Eso signfica cubrir tratamientos caros, rehabilitaciones largas, y si,
-                tambien tomar la decision dificil. No usamos fotos duras para dar lastima sino hay un plan atras.
-                </p>
-
-                <p>Somos transparentes porque sin confianza no hay ong que aguante. No improvisamos con vidas. Todo lo que hacemos a nivel
-                veterinario, legal o de conducta lo manejan profesionales. El cariño suma, pero no reemplaza el conocimiento.
-                </p>
-            
-          
-                <p>Educamos, denunciamos por la via legal, y solo salimos a exponer publicamente cuando es la unica forma de que un caso no quede impune.</p>
-                <br>
-            </main>
-        
-            <br>
-            <hr>
+            <h1>SALVANDO PATITAS LHM</h1>
+            <img src="./imagenes/logo.png" alt="Logo de la ong" class="logo-principal">
+            <nav class= "menu-enlaces">
+                <a href="./Index.html">Inicio</a>
+                <a href="./nosotros.html" target="_blank">Sobre nosotros</a>
+                <a href="./contacto.html" target="_blank">contacto</a>
+                <a href="./programa.html" target="_blank">programa</a>
+            </nav>
         </header>
         
+    <main>
+        <article class="caja-mision">
+            <h2>NUESTRA MISIÓN</h2>    
+            <p>Nuestra mision es rescatar, rehabilitar y proteger tanto perros como gatos en situacion de abandono, maltrato o vulnerabilidad, promoviendo una cultura de respeto y tenencia responsable que garantice su derecho a una vida libre de sufrimiento. La clave aqui es que no solo se "salvan vidas", sino que atacamos a la causa: abandono y maltrato, y buscar cambiar el entorno legal y social.</p>
+            <p>Trabajamos en dos frentes simultaneos:</p>
+            <ol class="lista-mision">
+                <li><strong>Atencion directa:</strong> sacar animales del peligro, curarlos y recuperarlos.</li>
+                <li><strong>Cambio estructural:</strong> educar, esterilizar masivamente y usar la ley para prevenir que el ciclo se repita.</li>
+            </ol>
+            <p>Lo que hacemos lo hacemos con compromiso real. Si tomamos un caso, vamos hasta el final. Eso signfica cubrir tratamientos caros, rehabilitaciones largas, y si, tambien tomar la decision dificil. No usamos fotos duras para dar lastima sino hay un plan atras.</p>
+            <p>Somos transparentes porque sin confianza no hay ong que aguante. No improvisamos con vidas. Todo lo que hacemos a nivel veterinario, legal o de conducta lo manejan profesionales. El cariño suma, pero no reemplaza el conocimiento.</p>
+            <p>Educamos, denunciamos por la via legal, y solo salimos a exponer publicamente cuando es la unica forma de que un caso no quede impune.</p>
+        </article>
 
-         <aside>
-            <section>
-                <video width="700" height="400" controls>
-                    <source src="diapo-salvando-patitas.mp4" type="video/mp4"/>
-                </video>
-                <br>
-            </section>
-        </aside>
-        
+        <section>
+            <h2>CONOCÉ MÁS DE NUESTRO TRABAJO</h2>
+            <article>
+                <img src="./imagenes/nosotros.jpg" alt="Equipo de Salvando Patitas" width="500">
+                <div class="info-programa">
+                <h3>Sobre Nosotros</h3>
+                <p>Conocé nuestra historia, quiénes somos y por qué hacemos lo que hacemos. El equipo detrás de Salvando Patitas LHM trabaja todos los días para darles una segunda oportunidad.</p>
+                <a href="./nosotros.html" class="boton-enlace">Conocé nuestra historia</a>
+                </div>
+            </article>
+
+            <article>
+                <img src="./imagenes/perrocontacto.png" alt="Contacto y adopciones" width="500">
+                <div class="info-programa">
+                <h3>Contacto y Adopciones</h3>
+                <p>¿Querés adoptar, ser hogar de tránsito o hacer una consulta? Escribinos. Tu mensaje puede ser el inicio de una nueva vida para uno de nuestros rescatados.</p>
+                <a href="./contacto.html" class="boton-enlace">Contactanos</a>
+                </div>
+            </article>
+
+            <article>
+                <img src="./imagenes/perro adoptame.png" alt="Nuestros programas" width="500">
+                <div class="info-programa">
+                <h3>Nuestros Programas</h3>
+                <p>Desde adopción responsable hasta campañas de castración. Descubrí todas las formas en las que intervenimos para ayudar a los animales de nuestra comunidad.</p>
+                <a href="./programa.html" class="boton-enlace">Ver programas</a>
+                </div>
+            </article>
+        </section>
 
         <footer>
             <hr>
@@ -76,8 +73,6 @@
             <a href="https://www.google.com/maps/@-34.574862,-58.4353297,3a,75y,236.19h,90t/data=!3m7!1e1!3m5!1sPoUJ0Wv6TYVyXltWjd4CHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DPoUJ0Wv6TYVyXltWjd4CHA%26yaw%3D236.19!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Av.santa fe 6000, Buenos Aires</a>
             <p>ONG Rescate Animal - Todos los derechos reservados.</p>
         </footer>
-
-       
 
     </body>
    
