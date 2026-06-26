@@ -129,6 +129,22 @@ footer {
     border-radius: 10px 10px 0 0;
 }
 
+.caja-mision {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    text-align: left; 
+    background-color: var(--color-fondo);
+    padding: 3rem 4rem; 
+    border-radius: 16px;
+    max-width: 900px; 
+    margin: 3rem auto; 
+}
+
+.lista-mision {
+    margin-left: 2.5rem;
+    color: var(--color-acento);
+}
 
 .boton-enlace {
     display: inline-block; 
@@ -146,21 +162,4 @@ footer {
     background-color: var(--color-primario);
     color: var(--color-acento); 
     transition: background-color 0.3s ease;
-}
-
-.caja-mision {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem; 
-    text-align: left; 
-    background-color: var(--color-fondo);
-    padding: 3rem 4rem; 
-    border-radius: 16px;
-    max-width: 900px; 
-    margin: 3rem auto; 
-}
-
-.lista-mision {
-    margin-left: 2.5rem;
-    color: var(--color-acento);
 }
