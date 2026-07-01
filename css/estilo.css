@@ -224,7 +224,6 @@ position: relative;
 }
 
 .nosotros::before{
-    .nosotros::before{
     content: "";
     position: fixed;
     inset: 0;
