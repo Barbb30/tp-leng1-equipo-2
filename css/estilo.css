@@ -129,7 +129,7 @@ article {
     display: flex;
     align-items: center; /*esto centra la imagen y el texto*/
     gap: 3rem;
-    background-color: #ffffff; 
+    background:var(--color-fondo); 
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
@@ -277,4 +277,108 @@ body.nosotros dl{
     width: fit-content;
     margin: auto;
     line-height: 1.8;
+}
+/*========================*/
+/* BOTON MODO OSCURO */
+/*========================*/
+
+#modo{
+
+    margin-top:15px;
+    padding:10px 18px;
+
+    border:none;
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:var(--color-acento);
+    color:white;
+
+    font-size:16px;
+    font-family:var(--fuente);
+
+    transition:.3s;
+
+}
+
+#modo:hover{
+
+    transform:scale(1.05);
+
+}
+
+/*========================*/
+/* MODO OSCURO */
+/*========================*/
+
+body.dark-mode{
+
+    --color-primario:#1f2937;
+    --color-acento:#4FC3F7;
+    --color-fondo:#121212;
+    --color-texto:#F5F5F5;
+
+    background:#121212;
+
+    color:var(--color-texto);
+
+}
+
+body{
+
+    background-color:var(--color-fondo);
+    color:var(--color-texto);
+
+    transition:0.4s;
+
+}
+
+body.dark-mode article{
+
+    background:#1e1e1e;
+
+    color:white;
+
+}
+
+body.dark-mode section{
+
+    color:white;
+
+}
+
+body.dark-mode footer{
+
+    background:#1f2937;
+
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3{
+
+    color:#4FC3F7;
+
+}
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode dt,
+body.dark-mode dd{
+
+    color:white;
+
+}
+
+body.dark-mode nav a{
+
+    color:white;
+
+}
+
+body.dark-mode nav a:hover{
+
+    color:#4FC3F7;
+
 }
