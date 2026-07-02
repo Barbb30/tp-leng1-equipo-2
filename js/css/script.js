@@ -1,3 +1,6 @@
+
+console.log("El script se cargó");
+
 const boton = document.getElementById("modo");
 
 boton.addEventListener("click", function(){
